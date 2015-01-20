@@ -6,4 +6,4 @@
 
 
 
-![Alt text](/a.png)
+![Alt text](/a.gif)

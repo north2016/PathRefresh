@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ccff"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingTop="100px" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.android.RoundImageView
+            android:id="@+id/im_face"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_marginBottom="20px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/e" />
+
+        <com.android.WaterView
+            android:id="@+id/waterView"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_gravity="center_horizontal" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="-48dp"
+            android:indeterminateDrawable="@drawable/progressbar"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.0" />
+
+</LinearLayout>
